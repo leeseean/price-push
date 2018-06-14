@@ -117,7 +117,7 @@ function intervalEth() {
         priceConfig.forEach(item => {
             gate.getTicker(item.tiker, (res) => {
                 if (Number(res.last) < item.min || Number(res.last) > item.max) { //小于200的时候通知我
-                    sendMail('leeseean@qq.com', `当前eth价格为${res.last}USDT`, `当前eth价格为${res.last}USDT`);
+                    sendMail('leeseean@qq.com', `当前${item.tiker}价格为${res.last}`, `当前${item.tiker}价格为${res.last}`);
                 }
             });
         });
