@@ -1,0 +1,19 @@
+{
+  "name": "gateio",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "nodemailer": "^4.6.6",
+    "nodemailer-smtp-transport": "^2.7.4",
+    "nonce": "^1.0.4",
+    "q": "^1.5.0",
+    "request": "^2.83.0"
+  }
+}
